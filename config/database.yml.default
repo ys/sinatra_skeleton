@@ -1,0 +1,14 @@
+development:
+  username: user
+  password: password
+  database: app_dev
+  host: localhost
+  adapter: postgresql
+
+test:
+  username: root
+  password: toor
+  database: app_test
+  host: localhost
+  adapter: postgresql
+

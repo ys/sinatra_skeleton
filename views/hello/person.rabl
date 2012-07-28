@@ -1,0 +1,2 @@
+object @person
+  attributes :name
