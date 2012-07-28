@@ -1,6 +1,7 @@
 require 'sinatra/activerecord'
 require 'pg'
 require 'rabl'
+require 'slim'
 require 'active_support/core_ext'
 require 'active_support/inflector'
 require 'rabl/builder'

@@ -1,13 +1,14 @@
+require 'rabl'
 class App
+  get 'favicon.ico' do end
 
-  register Sinatra::Croon
-
-  get 'favicon.ico' do
-
-  end
-
+  # Get a greeting
+  # @param <name> The person name
+  # @response
+  #   Hello name
+  #
   get '/:name' do
     @person = Person.new(name: params[:name])
-    render :rabl,  :"hello/person", format: :json
+    slim :'hello/person'
   end
 end
