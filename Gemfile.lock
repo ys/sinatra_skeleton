@@ -76,7 +76,7 @@ GEM
     rabl (0.7.0)
       activesupport (>= 2.3.14)
       multi_json (~> 1.0)
-    rack (1.4.1)
+    rack (1.6.12)
     rack-protection (1.2.0)
       rack
     rack-test (0.6.1)
